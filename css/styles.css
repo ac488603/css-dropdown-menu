@@ -90,3 +90,18 @@ header > ul > li:hover{
     display: block;
 }
 
+/*media query*/
+@media(max-width: 500px){
+    header{
+        height: 100%;
+    }
+    header  > ul{
+        flex-direction: column;
+    }
+
+    #service-items,
+    #blog-items{
+        position: relative;
+        width:100%;
+    }
+}
